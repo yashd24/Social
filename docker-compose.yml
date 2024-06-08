@@ -4,9 +4,9 @@ services:
   db:
     image: postgres:13
     environment:
-      POSTGRES_DB: socialapp_db
-      POSTGRES_USER: socialapp_user
-      POSTGRES_PASSWORD: socialapp_password
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -23,11 +23,11 @@ services:
       - db
     environment:
       - DEBUG=True
-      - DB_NAME=socialapp_db
-      - DB_USER=socialapp_user
-      - DB_PASSWORD=socialapp_password
-      - DB_HOST=db
-      - DB_PORT=5432
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
 
 volumes:
   postgres_data:
