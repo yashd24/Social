@@ -101,42 +101,7 @@ Admin panel: [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
 ## API Reference
 
-#### Register 
-
-```http
-POST /api/register/
-```
-
-#### Login
-
-```http
-POST /api/login/
-```
-
-#### Send Friend Request
-```http
-POST /api/friend-request/
-```
-#### Pending Friend Requests
-```http
-GET /api/friend-request/
-```
-#### Get User's Friends List
-```http
-GET /api/friend-request/friends/
-```
-
-#### Reject Friend Request
-```http
-POST /api/friend-request/reject/
-```
-
-#### Search User
-```http
-GET /api/search-user/?q='keyword'
-```
-
-
+### [Postman Link](https://www.postman.com/orange-comet-842903/workspace/socialapp/collection/27788962-bd59332c-513e-406b-a429-31efa65b1823?action=share&creator=27788962)
 ## Constraints
 
 • Can only send 3 Friend Request per minute.
