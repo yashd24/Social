@@ -25,7 +25,7 @@ This project is an API for a social networking application built using Django Re
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/yashd24/Social_Network_API.git
 cd social_networking_api
 ```
 
