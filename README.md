@@ -58,7 +58,7 @@ Admin panel: [http://localhost:8000/admin/](http://localhost:8000/admin/)
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/yashd24/Social_Network_API.git
 cd social_networking_api
 ```
 
